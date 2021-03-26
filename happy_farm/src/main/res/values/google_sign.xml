@@ -3,6 +3,6 @@
     <!-- TODO(user): replace with your real server client ID -->
     <!-- Server Client ID.  This should be a valid Web OAuth 2.0 Client ID obtained
          from https://console.developers.google.com/ -->
-    <string name="server_client_id">260621587146-vbbj35nu8dugtb8kk0hhc05akeuro4pf.apps.googleusercontent.com</string>
+    <string name="server_client_id">vbbj35nu8dugtb8kk0hhc05akeuro4pf.apps.googleusercontent.com</string>
     <!--<string name="server_client_id">274300717112-xxxxx.apps.googleusercontent.com</string>-->
 </resources>
