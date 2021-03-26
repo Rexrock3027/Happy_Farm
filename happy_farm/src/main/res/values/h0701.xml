@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--    <string name="春">春</string>-->
+    <!--    <string name="夏">夏</string>-->
+    <!--    <string name="秋">秋</string>-->
+    <!--    <string name="冬">冬</string>-->
+    <string name="當季的推薦作物">當季的推薦作物選單</string>
+    <string name="同種營養價值推薦">同種營養價值推薦</string>
+    <!--    <string name="快速採買"> </string>-->
+    <!--    <string name="粉絲專頁"> </string>-->
+    <!--    <string name="回首頁"> </string>-->
+    <!--    <string name="h0701_b001">確認</string>-->
+    <string-array name="m0501_a001"><item>春季</item><item>茄子</item><item>番茄</item><item>草莓</item><item>青椒</item><item>空心菜</item><item>秋葵</item></string-array>
+    <string-array name="m0501_b001"><item>夏季</item><item>小白菜</item><item>小黃瓜</item><item>辣椒</item><item>櫻桃蘿蔔</item><item>豇豆</item><item>落葵</item><item>綠豆</item></string-array>
+    <string-array name="m0501_c001"><item>秋季</item><item>大蒜</item><item>甜豌豆莢</item><item>萵苣</item><item>敏豆莢</item><item>菠菜</item><item>芹菜</item><item>洋蔥</item><item>綠豆芽</item><item>青蔥</item><item>胡蘿蔔</item></string-array>
+    <string-array name="m0501_d001"><item>冬季</item><item>甜椒</item><item>九層塔</item><item>菜頭</item><item>香菜</item><item>烏塌菜</item><item>韮菜</item></string-array>
+    <!--    <string-array name="甜椒"><item>29</item><item>196</item><item>456</item><item>107.5</item></string-array>-->
+    <!--    <string-array name="茄子"><item>25</item><item>201</item><item>10</item><item>5.2</item></string-array>-->
+    <!--    <string-array name="草莓"><item>39</item><item>199</item><item>25</item><item>69.2</item></string-array>-->
+    <!--    <string-array name="青椒"><item>23</item><item>144</item><item>262</item><item>94.9</item></string-array>-->
+    <!--    <string-array name="空心菜"><item>22</item><item>84</item><item>1318</item><item>21.3</item></string-array>-->
+    <!--    <string-array name="韮菜"><item>23</item><item>312</item><item>4760</item><item>8.3</item></string-array>-->
+    <!--    <string-array name="秋葵"><item>36</item><item>203</item><item>2258</item><item>11.3</item></string-array>-->
+
+    <!--    <string-array name="小白菜"><item>10</item><item>144</item><item>352</item><item>21.1</item></string-array>-->
+    <!--    <string-array name="小黃瓜"><item>10</item><item>154</item><item>257</item><item>11.2</item></string-array>-->
+    <!--    <string-array name="辣椒"><item>80</item><item>517</item><item>8863</item><item>153.4</item></string-array>-->
+    <!--    <string-array name="櫻桃蘿蔔"><item>11</item><item>237</item><item>0</item><item>8.3</item></string-array>-->
+    <!--    <string-array name="豇豆"><item>35</item><item>171</item><item>287</item><item>16.6</item></string-array>-->
+    <!--    <string-array name="落葵"><item>33</item><item>243</item><item>9919</item><item>54.8</item></string-array>-->
+    <!--    <string-array name="綠豆"><item>344</item><item>948</item><item>120</item><item>11.8</item></string-array>-->
+
+    <!--    <string-array name="大蒜"><item>122</item><item>423</item><item>0</item><item>8.3</item></string-array>-->
+    <!--    <string-array name="荷蘭豆"><item>42</item><item>173</item><item>324</item><item>30.4</item></string-array>-->
+    <!--    <string-array name="萵苣"><item>14</item><item>278</item><item>241</item><item>7.1</item></string-array>-->
+    <!--    <string-array name="四季豆"><item>27</item><item>192</item><item>324</item><item>8.3</item></string-array>-->
+    <!--    <string-array name="菠菜"><item>18</item><item>510</item><item>6163</item><item>12.1</item></string-array>-->
+    <!--    <string-array name="芹菜"><item>15</item><item>314</item><item>664</item><item>6.6</item></string-array>-->
+    <!--    <string-array name="洋蔥"><item>42</item><item>145</item><item>0</item><item>5.6</item></string-array>-->
+    <!--    <string-array name="綠豆芽"><item>24</item><item>128</item><item>7</item><item>7.1</item></string-array>-->
+    <!--    <string-array name="青蔥"><item>28</item><item>650</item><item>414</item><item>15.8</item></string-array>-->
+
+    <!--    <string-array name="九層塔"><item>28</item><item>347</item><item>16050</item><item>13.8</item></string-array>-->
+    <!--    <string-array name="蘿蔔"><item>18</item><item>125</item><item>0</item><item>13.9</item></string-array>-->
+    <!--    <string-array name="香菜"><item>26</item><item>303</item><item>12085</item><item>71.9</item></string-array>-->
+    <!--    <string-array name="烏塌菜"><item>11</item><item>383</item><item>2789</item><item>5.9</item></string-array>-->
+
+
+
+    <!--    <string name="甜椒熱量">熱量 29kcal</string>-->
+    <string name="以每100g計算">(以每100g計算)</string>
+    <!--    <string name="番茄品項">番茄   </string>-->
+    <!--    <string name="番茄熱量">熱量 33kcal</string>-->
+    <!--    <string name="番茄Vit.A">Vit.A 11626 IU</string>-->
+    <!--    <string name="番茄Vit.C">Vit.C 43.5mg</string>-->
+    <!--    <string name="番茄鉀">鉀 265mg</string>-->
+    <string name="Vit.A">  胡蘿蔔、菠菜、青花菜</string>
+    <string name="營養素Vit.A">Vit.A</string>
+    <string name="Vit.C"> 芭樂、奇異果、草莓</string>
+    <string name="營養素Vit.C">Vit.C</string>
+    <string name="高鉀食物">茼蒿、菠菜、韭菜</string>
+    <string name="營養素鉀">鉀</string>
+    <!--    <string name="甜椒品項">品項 甜椒</string>-->
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/m_add"
+        android:orderInCategory="100"
+        android:title="@string/m_add" />
+    <item
+        android:id="@+id/m_edit"
+        android:orderInCategory="200"
+        android:title="@string/m_edit" />
+    <item
+        android:id="@+id/m_delete"
+        android:orderInCategory="300"
+        android:title="@string/m_delete"
+        android:visible="false" />
+    <item
+        android:id="@+id/m_mysql"
+        android:orderInCategory="400"
+        android:title="@string/m_mysql"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_settings"
+
+
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="999"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="h0501_t001">標題:</string>
+    <string name="h0501_t002">編輯日期:</string>
+    <string name="h0501_t003"> </string>
+    <string name="h0501_t004" >種植筆記</string>
+    <string name="h0501_t005" >種植日期:</string>
+    <string name="h0501_add" >新增筆記</string>
+    <string name="h0501_t007" >蘭花</string>
+    <string name="h0501_t008" >草莓</string>
+    <string name="h0501_t009"> </string>
+    <string name="h0501_n001">最佳生長光照：蘭花喜陰，不宜多曬，如若有條件，春、秋、冬季的晴天，上午8時至10時把它移往太陽下曬2--3小時；
+        夏天早上8時左右讓它曬上半小時，對蘭花有益。 澆水要點：花性喜涼爽陰濕，但濕是指土壤保持濕潤，不可多澆水。 遇氣候乾燥時，宜用細孔噴水壺將葉及盆土澆至微濕即可，切不能澆得太多，讓花的根部積水。</string>
+    <string name="h0501_n002">草莓喜歡冷涼氣候，要避免悶熱潮濕，也需要陽光讓果實轉色，因此不能在陰暗處，建議在有陽光的通風處種植，同時土壤排水要良好。 袁婧清則建議，選用7吋大盆，
+        給予草莓足夠的生長空間；而土壤可以選用培養土，因為一般泥土容易在澆水後壓密而壓迫根系，若想加強透水性，可以在土中加入椰子纖維。</string>
+    <string name="h0501_hint01">請輸入文字:</string>
+    <string name="h0501_hint02" >輸入標題:</string>
+    <string name="h0501_hint03" >2020/12/12</string>
+    <string name="h0501_sp01" >選擇筆記</string>
+    <string name="h0501_t011">05</string>
+    <string name="h0501_b001">請選擇日期</string>
+    <string name="h0501_d001">2020/12/12</string>
+    <string name="h0501_d002">2020/12/25</string>
+    <string name="h0501_d003">請選擇日期</string>
+    <string name="h0501_nd001">2020/12/10</string>
+    <string name="h0501_nd002">2020/12/12</string>
+    <string name="h0501_b002">新增</string>
+    <string name="h0501_modify">修改</string>
+    <string name="h0501_del">刪除</string>
+    <string name="n_yy">年</string>
+    <string name="n_mm">月</string>
+    <string name="n_dd">日</string>
+    <string name="nn">/</string>
+    <string name="h0501_datetitle">選擇日期:</string>
+    <string name="h0501_datemessage">請選擇您的種植日期</string>
+    <string name="h0501_St001">項目:</string>
+    <string name="h0501_Sb001">修改</string>
+    <string name="h0501_Sb002">刪除</string>
+    <string name="h0501_btn">返回</string>
+    <string name="h0501_toast_back">請按右上返回鍵</string>
+    <string name="h0501_toast_leave">請按右上退出鍵</string>
+    <string name="m_add">新增筆記</string>
+    <string name="m_edit">編輯筆記</string>
+    <string name="m_delete">刪除筆記</string>
+    <string name="h0501_ID">1</string>
+    <string name="m_deltitle">刪除筆記</string>
+    <string name="m_delmessage">筆記刪除無法復原\n確定將筆記刪除嗎?</string>
+    <string name="h0501_clear">清空</string>
+    <string name="m_mysql">匯入MySQL</string>
+
+    <string-array name="h0501_sp01">
+    <item>選擇筆記</item>
+    <item>蘭花</item>鍵
+    <item>草莓</item>
+    </string-array>
+</resources>

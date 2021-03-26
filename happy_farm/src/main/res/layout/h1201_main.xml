@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h1301_bac"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/h1201_framelayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/h1201_bottombg"
+        android:layout_marginBottom="0dp">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/h1201_bottombg"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Brown"
+        android:text="@string/h1301_v001" />
+
+    <LinearLayout
+        android:id="@+id/h1201_lay02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginBottom="5dp"
+        android:backgroundTint="@color/Brown"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp">
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1201_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:scrollIndicators="none"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:scrollbarFadeDuration="250"
+            app:srcCompat="@drawable/googleg_color" />
+
+        <ImageButton
+            android:id="@+id/h1201_i001"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1201_i001"
+            android:scaleType="fitCenter"
+            android:scaleX="1.05"
+            app:srcCompat="@drawable/h1301_btn007" />
+
+        <ImageButton
+            android:id="@+id/h1201_i002"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1201_i002"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/h1301_btn008" />
+
+        <ImageView
+            android:id="@+id/h1201_i004"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/h1201_i004"
+            app:srcCompat="@drawable/about_us" />
+
+        <ImageButton
+            android:id="@+id/h1201_i003"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1201_i003"
+            android:scaleType="fitCenter"
+            android:scaleX="0.9"
+            android:scaleY="1"
+            android:visibility="gone"
+            app:srcCompat="@drawable/googleg_color" />
+
+    </LinearLayout>
+
+</RelativeLayout>

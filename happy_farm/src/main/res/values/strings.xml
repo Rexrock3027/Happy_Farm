@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">城市農夫</string>
+    <string name="myname05">05</string>
+    <string name="myname06">06</string>
+    <string name="myname07">07</string>
+    <string name="myname12">12</string>
+    <string name="myname13">13</string>
+    <string name="myname14">14</string>
+    <string name="myname15">15</string>
+    <string name="AboutUsTitle">關於本程式</string>
+    <string name="AboutUsContent">
+        　　本程式旨在提供一般民眾在閒餘想要種植作物的相關資訊。\n\n
+        　　內容包含四季建議的相關農作物，該農作物如何種植以及相關蟲害的注意事項；同時，亦提供相關工具、種子與種苗...等採買方式，以及作物的營養價值。希望能對沒有耕作經驗或對種植作物不熟悉的權重給予最方便的資訊與方法。\n\n
+        　　此外，使用者在登入Google帳號後，亦提供"農夫筆記"此一功能，讓種植者能記錄種植過程的相關資訊並方便後續查找。\n\n
+        　　本程式會持續更新並添加更多農作物諮詢以及程式優化，還請舊雨新知持續支持。</string>
+    <string name="AboutUsInf">開發人員</string>
+    <string name="AboutUS05Name">邱堂源：</string>
+    <string name="AboutUS05Phone">+886910507947</string>
+    <string name="AboutBlank">　　//　　</string>
+    <string name="AboutUS05Mail">cty0211@gmail.com</string>
+    <string name="AboutUS06Name">王楷麒：</string>
+    <string name="AboutUS06Phone">+886932036264</string>
+    <string name="AboutUS06Mail">stu90061@gmail.com</string>
+    <string name="AboutUSh07Name">江士豪：</string>
+    <string name="AboutUS07Phone">+886926484063</string>
+    <string name="AboutUS07Mail">valenhsujohnny@gmail.com</string>
+    <string name="AboutUS12Name">李其軒：</string>
+    <string name="AboutUS12Phone">+886981770990</string>
+    <string name="AboutUS12Mail">kartg0203@gmail.com</string>
+    <string name="AboutUS13Name">邵宏儒：</string>
+    <string name="AboutUS13Phone">+886966335819</string>
+    <string name="AboutUS13Mail">rexrock3027@gmail.com</string>
+    <string name="AboutUS14Name">楊惟竣：</string>
+    <string name="AboutUS14Phone">+886972245578</string>
+    <string name="AboutUS14Mail">yui5421azsx@gmail.com</string>
+    <string name="AboutUS15Name">周長秀：</string>
+    <string name="AboutUS15Phone">+886928430495</string>
+    <string name="AboutUS15Mail">chialingd3@gmail.com</string>
+    <string name="action_settings">返回</string>
+</resources>

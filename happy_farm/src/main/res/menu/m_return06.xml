@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/m_update"
+        android:orderInCategory="25"
+        android:title="@string/m_update" />
+    <item
+        android:id="@+id/m_batch"
+        android:orderInCategory="30"
+        android:title="@string/m_batch" />
+    <item
+        android:id="@+id/m_clear"
+        android:orderInCategory="35"
+        android:title="@string/m_clear" />
+    <item
+        android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_revert"
+        android:orderInCategory="999"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom" />
+</menu>

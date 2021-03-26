@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="h1501_t002">四季蔬食語音菜單</string>
+    <string name="h1501_b001">食譜教學</string>
+    <string name="h1501_b002">四季料理</string>
+    <string name="lt000">影片連結如下:</string>
+    <string name="lt001">2016年台東區野餐盒競賽食譜</string>
+    <string name="lt002">2009年 全國A Bai風味餐競賽食譜</string>
+    <string name="lt003">2008年養生保健植物餐烹藝競賽食譜</string>
+    <string name="lb001">close</string>
+    <string name="rt000">四季食譜教學(請按)</string>
+    <string name="rt0000">四季食譜教學</string>
+    <string name="rt001">春季料理:     田園三劍客     雞肉秋葵卷</string>
+    <string name="rt002">夏季料理:     豬肺黃梨炒木耳     紅棗栗燒雞</string>
+    <string name="rt003">秋季料理:     土雞燜時蔬     義大利天使麵</string>
+    <string name="rt004">冬季料理:     客家油醋韭菜卷     菜頭排骨湯</string>
+    <string name="rt005">教學連結</string>
+    <string name="rb001">close</string>
+    <string name="h1501_v001">茄子:田園三劍客</string>
+    <string name="h1501_v002">秋葵:雞肉秋葵捲</string>
+    <string name="h1501_v003">辣椒:紅棗栗燒雞</string>
+    <string name="h1501_v004">木耳:豬肺黃梨炒木耳</string>
+    <string name="h1501_v005">芹菜:客家小炒義大利天使麵</string>
+    <string name="h1501_v006">紅蘿蔔:土雞炆時蔬</string>
+    <string name="h1501_v007">韭菜:客家油醋韭菜捲</string>
+    <string name="h1501_v008">蘿蔔:菜頭排骨湯</string>
+    <string name="h1502_im01">照片不存在</string>
+    <string name="h1502_Alpha">彈出動畫</string>
+    <string name="h1502_scale_rotate">旋轉動畫</string>
+    <string name="h1502_trans">位置移動</string>
+    <string name="h1502_trans_bounce">動畫彈跳</string>
+
+    <string name="h1502_t001">四季養生食譜</string>
+    <string name="h1502_t002">     春季  :   茄子、秋葵            \n夏季  :   辣椒、木耳             \n秋季  :  芹菜、紅蘿蔔                    \n冬季  :  韭菜、白蘿蔔</string>
+
+    <string-array name="h1502_a001">
+        <item>做法:(1)取一個適當的容器將雞粉、蠔油、鮮味露、辣味露、糖、味精、老抽(醬油)、水調合均勻備用。(2)起油鍋燒至約180度，將芋頭茄子炸至金黃色撈起，在將四季豆過油熟透瀝乾。(3)將食材以及調合好的調味料以大火快炒均勻即可盛盤。</item>
+        <item>做法:(1)將雞肉片加胡椒粉、鹹冬瓜醬、太白粉醃10分鐘，秋葵清洗川燙後泡冷水。(2)取肉片鋪平放上秋葵捲起沾上蛋汁，沾麵包粉炸至金黃色即可撈起排盤。</item>
+        <item>做法:(1)紅棗乾去籽洗淨再將土雞腿塊放些醬油上色。(2)燒熱油將雞肉及粟子炸色再將蔥、蒜頭、薑爆香，加入花椒粒炒香。(3)主食材下鍋及調味，炒糖色入鍋增色，燒至收汁滴上香油即可。</item>
+        <item>做法:(1)起油鍋，置入薑絲、木耳爆香後加入鳳梨炒熟。(2)再加入已汆燙豬肺片拌炒，以糖、醋精、鹽調味後起鍋。趁熱食用，風味絕佳。</item>
+        <item>做法:(1)將天使麵煮熟備用。(2)起鍋將蒜頭爆香，把五花肉、魷魚炒熟接著加入豆干。(3)加入米酒嗆鍋，之後放入蔥及芹菜調味，再將義大利麵下鍋拌炒即可擺盤。</item>
+        <item>做法:(1)小魚乾用水沖洗乾淨，炒香後再加入蒜頭，炒至香氣出來。(2)加水並放入川燙好的雞肉塊，煮開後以小火炆煮出鮮味。(3)芋頭、南瓜、木?子切片，秋葵、長豆切斜片備用。(4)依序加入食材，調味提香後盛盤即可。</item>
+        <item>做法:(1)中卷去皮、腸、翅洗淨備用。(2)白醋、糖隔水加熱至溶化後放冷，加入調味料樹子、醬油膏、桔醬、無味花生粉、橄欖油、香油及客家油醋醬汁冰鎮。(3)在盤中依序擺上絲瓜條、牛蕃茄片、韭菜中卷，淋上醬汁即可完成。</item>
+        <item>做法:(1)水煮開先放排骨煮約15分鐘，再加入白蘿蔔同煮。以中火煮約30分鐘後，加入調味料及香菜即可。(2)白蘿蔔洗淨削皮切方塊，排骨洗淨汆燙。</item>
+
+    </string-array>
+
+</resources>

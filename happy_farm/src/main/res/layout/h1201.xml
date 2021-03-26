@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/h1201_rl01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h1301_bac"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/h1201_s001"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/h1201_s002"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/h1201_s001"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown" />
+
+    <TextView
+        android:id="@+id/h1201_t004"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1201_s001"
+        android:layout_alignStart="@+id/h1201_s001"
+        android:layout_alignEnd="@+id/h1201_s002"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/h1201_bg_rectangle_with_corners_top"
+        android:gravity="center"
+        android:text="@string/h1201_t004"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/h1201_p001"
+        style="@android:style/Widget.ProgressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/h1201_list01"
+        android:layout_alignTop="@+id/h1201_list01"
+        android:layout_alignEnd="@+id/h1201_list01"
+        android:layout_alignBottom="@+id/h1201_list01"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="110dp"
+        android:layout_marginBottom="200dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/h1201_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1201_t004"
+        android:layout_alignStart="@+id/h1201_t004"
+        android:layout_alignEnd="@+id/h1201_t004"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/h1201_total01"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/h1201_list01"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/h1201_total"
+        android:layout_alignStart="@+id/h1201_t004"
+        android:layout_alignEnd="@+id/h1201_s002"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="-10dp"
+        android:layout_marginBottom="1dp">
+
+    </ListView>
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/h1201_bottombg"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="70dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:background="@color/Brown"-->
+    <!--        android:text="@string/h1301_v001" />-->
+
+    <!--    <LinearLayout-->
+    <!--        android:id="@+id/h1201_lay02"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_alignParentStart="true"-->
+    <!--        android:layout_alignParentBottom="true"-->
+    <!--        android:layout_marginStart="0dp"-->
+    <!--        android:layout_marginEnd="0dp"-->
+    <!--        android:layout_marginBottom="5dp"-->
+    <!--        android:backgroundTint="@color/Brown"-->
+    <!--        android:orientation="horizontal"-->
+    <!--        android:paddingStart="5dp"-->
+    <!--        android:paddingEnd="5dp"-->
+    <!--        android:paddingBottom="5dp">-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/h1201_i001"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_weight="1.0"-->
+    <!--            android:background="#00000000"-->
+    <!--            android:contentDescription="@string/h1201_i001"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            app:srcCompat="@drawable/h1301_btn007" />-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/h1201_i002"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_weight="1.0"-->
+    <!--            android:background="#00000000"-->
+    <!--            android:contentDescription="@string/h1201_i002"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            app:srcCompat="@drawable/h1301_btn008" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/h1201_i004"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_weight="1.0"-->
+    <!--            android:background="@drawable/about_us"-->
+    <!--            android:gravity="center"-->
+    <!--            android:scaleX="0.5"-->
+    <!--            android:scaleY="1"-->
+    <!--            android:textColor="@color/black"-->
+    <!--            android:textSize="30sp"-->
+    <!--            android:textStyle="bold" />-->
+
+    <!--        <tw.happy_farm.CircleImgView-->
+    <!--            android:id="@+id/h1201_icon"-->
+    <!--            android:layout_width="50dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_gravity="center"-->
+    <!--            android:layout_marginStart="25dp"-->
+    <!--            android:layout_marginEnd="25dp"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            android:scaleX="0.9"-->
+    <!--            android:scaleY="0.9"-->
+    <!--            android:scrollIndicators="none"-->
+    <!--            android:scrollbarDefaultDelayBeforeFade="400"-->
+    <!--            android:scrollbarFadeDuration="250"-->
+    <!--            app:srcCompat="@drawable/googleg_color" />-->
+
+    <!--        <ImageButton-->
+    <!--            android:id="@+id/h1201_i003"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="50dp"-->
+    <!--            android:layout_weight="1.0"-->
+    <!--            android:background="#00000000"-->
+    <!--            android:contentDescription="@string/h1201_i003"-->
+    <!--            android:scaleType="fitCenter"-->
+    <!--            android:scaleX="0.9"-->
+    <!--            android:scaleY="1"-->
+    <!--            android:visibility="gone"-->
+    <!--            app:srcCompat="@drawable/googleg_color" />-->
+
+    <!--    </LinearLayout>-->
+
+</RelativeLayout>

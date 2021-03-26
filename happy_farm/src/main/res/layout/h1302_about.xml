@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h1301_bac"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/h1302_AboutUsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dp15"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/dp15"
+        android:layout_marginBottom="@dimen/dp15"
+        android:autoSizeTextType="uniform"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/Brown"
+        android:text="@string/AboutUsTitle"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/h1302_sc01"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/h1302_AboutUsTitle"
+        android:layout_marginStart="@dimen/dp15"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/dp15"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/Brown_ligmt">
+
+        <TextView
+            android:id="@+id/j1302_AboutUsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp10"
+            android:layout_marginEnd="@dimen/dp10"
+            android:autoSizeTextType="uniform"
+            android:text="@string/AboutUsContent"
+            android:textSize="14sp" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/h1302_AboutUsInf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1302_sc01"
+        android:layout_marginStart="@dimen/dp15"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="@dimen/dp15"
+        android:layout_marginBottom="@dimen/dp15"
+        android:autoSizeTextType="uniform"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/Brown"
+        android:text="@string/AboutUsInf"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/white"
+        android:textSize="24sp" />
+
+    <ScrollView
+        android:id="@+id/h1302_sc02"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:layout_below="@+id/h1302_AboutUsInf"
+        android:layout_marginStart="@dimen/dp15"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="@dimen/dp15"
+        android:background="#FFFFFF"
+        android:backgroundTint="@color/Brown_ligmt">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TableRow
+                android:id="@+id/h1302_TR05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp05">
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS05Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS05Name"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS05Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="phone"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS05Phone"
+                    android:textColor="@color/Blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS05Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="email"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS05Mail"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/h1302_TR06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp05">
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS06Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS06Name"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS06Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="phone"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS06Phone"
+                    android:textColor="@color/Blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS06Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="email"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS06Mail"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/h1302_TR07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp05">
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS07Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUSh07Name"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS07Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="phone"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS07Phone"
+                    android:textColor="@color/Blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS07Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="email"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS07Mail"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/h1302_TR12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp05">
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS12Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS12Name"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS12Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="phone"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS12Phone"
+                    android:textColor="@color/Blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS12Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="email"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS12Mail"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/h1302_TR13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp05">
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS13Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS13Name"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS13Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="phone"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS13Phone"
+                    android:textColor="@color/Blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS13Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="email"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS13Mail"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/h1302_TR14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp05">
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS14Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS14Name"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS14Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="phone"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS14Phone"
+                    android:textColor="@color/Blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS14Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="email"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS14Mail"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/h1302_TR15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dp05">
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS15Name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS15Name"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS15Phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="phone"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS15Phone"
+                    android:textColor="@color/Blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/h1302_AboutUS15Mail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp05"
+                    android:autoLink="email"
+                    android:autoSizeTextType="uniform"
+                    android:text="@string/AboutUS15Mail"
+                    android:textSize="13sp" />
+
+            </TableRow>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/h1301-lh03"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-15dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/Brown"
+        android:orientation="horizontal"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:paddingBottom="5dp">
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1302_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="45dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="40dp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:scrollIndicators="none"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:scrollbarFadeDuration="250"
+            app:srcCompat="@drawable/googleg_color" />
+
+        <ImageButton
+            android:id="@+id/h1301_b007"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1301_t001"
+            android:scaleType="fitCenter"
+            android:scaleX="1.05"
+            app:srcCompat="@drawable/h1301_btn007" />
+
+        <ImageButton
+            android:id="@+id/h1301_b008"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1301_t010"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/h1301_btn008" />
+
+        <ImageButton
+            android:id="@+id/h1301_t001"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1301_t010"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:srcCompat="@drawable/about_us" />
+
+        <ImageButton
+            android:id="@+id/h1301_b009"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1301_t010"
+            android:scaleType="fitCenter"
+            android:visibility="gone"
+            app:srcCompat="@drawable/googleg_color" />
+
+    </LinearLayout>
+</RelativeLayout>

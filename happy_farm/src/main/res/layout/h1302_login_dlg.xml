@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/h1301_bac"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/h1302_Diatitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Brown"
+        android:gravity="center"
+        android:text="@string/h1302_Diatitle"
+        android:textAlignment="gravity"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/h1302_Diat001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1302_Diatitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="15dp"
+        android:gravity="center"
+        android:text="@string/h1302_Diat001"
+        android:textColor="@color/Navy"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform" />
+
+    <Button
+        android:id="@+id/h1302_Diab002"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/h1302_Diat001"
+        android:layout_alignTop="@+id/h1302_Diab001"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:text="@string/h1302_b004"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/h1302_Diab001"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1302_Diat001"
+        android:layout_alignEnd="@+id/h1302_Diat001"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:text="@string/h1302_Diab001"
+        android:textSize="12sp" />
+
+</RelativeLayout>

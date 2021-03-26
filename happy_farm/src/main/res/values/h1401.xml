@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="h1401_t001">春</string>
+    <string name="h1401_t002">夏</string>
+    <string name="h1401_t003">秋</string>
+    <string name="h1401_t004">冬</string>
+    <string name="h1401_t0101">茄子</string>
+    <string name="h1401_t0102">番茄</string>
+    <string name="h1401_t0103">草莓</string>
+    <string name="h1401_t0104">青椒</string>
+    <string name="h1401_t0105">空心菜</string>
+    <string name="h1401_t0106">韭菜</string>
+    <string name="h1401_t0107">香蔥</string>
+    <string name="h1401_t0108">秋葵</string>
+
+    <string name="h1401_t0201">小白菜</string>
+    <string name="h1401_t0202">黃瓜</string>
+    <string name="h1401_t0203">辣椒</string>
+    <string name="h1401_t0204">櫻桃蘿蔔</string>
+    <string name="h1401_t0205">豇豆</string>
+    <string name="h1401_t0206">落葵</string>
+    <string name="h1401_t0207">綠豆</string>
+
+    <string name="h1401_t0301">大蒜</string>
+    <string name="h1401_t0302">荷蘭豆</string>
+    <string name="h1401_t0303">萵苣</string>
+    <string name="h1401_t0304">四季豆</string>
+    <string name="h1401_t0305">胡蘿蔔</string>
+    <string name="h1401_t0306">菠菜</string>
+    <string name="h1401_t0307">芹菜</string>
+    <string name="h1401_t0308">洋蔥</string>
+    <string name="h1401_t0309">綠豆芽</string>
+    <string name="h1401_t0310">青蔥 </string>
+
+    <string name="h1401_t0401">甜椒</string>
+    <string name="h1401_t0402">九層塔</string>
+    <string name="h1401_t0403">菜頭</string>
+    <string name="h1401_t0404">香菜</string>
+    <string name="h1401_t0405">烏塌菜</string>
+    <string name="h1401_t0406">韭菜</string>
+    <string name="h1401_t0407">冬寒菜</string>
+
+
+
+
+
+    <string name="h1401_t013">圖</string>
+    <string name="h1401_t014">名稱:</string>
+    <string name="h1401_t014_1">名稱: "    " 茄子</string>
+    <string name="h1401_t015">簡介</string>
+    <string name="h1401_t016">茄科茄屬一年生草本植物。
+        其結出的果實可食用，顏色多為紫色或紫黑色，形狀上也有長條形、圓形、橢圓、梨形等各種。根據品種的不同，食用方法多樣。
+
+    </string>
+    <string name="h1401_t017"></string>
+    <string name="h1401_t018"></string>
+    <string name="h1401_t019"></string>
+
+
+</resources>

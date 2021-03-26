@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Brown_ligmt"
+    android:clipChildren="true"
+    android:padding="0dp"
+    tools:context=".H0701">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:text="@string/營養素Vit.A"
+        android:textColor="@color/Purple"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:text="@string/營養素Vit.C"
+        android:textColor="@color/Purple"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_toEndOf="@+id/textView16"
+        android:background="@color/white"
+        android:text="@string/高鉀食物"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+        android:text="@string/營養素鉀"
+        android:textColor="@color/Purple"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="320dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/同種營養價值推薦"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_toEndOf="@+id/textView19"
+        android:background="@color/white"
+        android:text="@string/Vit.A"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_toEndOf="@+id/textView18"
+        android:background="@color/white"
+        android:text="@string/Vit.C"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform" />
+
+    <Spinner
+        android:id="@+id/h0701_s001"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/Lime"
+        android:backgroundTintMode="multiply"
+        android:entries="@array/m0501_a001"
+        android:popupBackground="@color/Lime"
+        android:prompt="@string/當季的推薦作物"
+        android:scrollbarSize="24dp"
+        android:spinnerMode="dialog"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/h0701_s002"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/Red"
+        android:backgroundTintMode="multiply"
+        android:entries="@array/m0501_b001"
+        android:prompt="@string/當季的推薦作物"
+        android:scrollbarSize="24dp"
+        android:spinnerMode="dialog"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/h0701_s003"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/Yellow"
+        android:backgroundTintMode="multiply"
+        android:entries="@array/m0501_c001"
+        android:prompt="@string/當季的推薦作物"
+        android:scrollbarSize="24dp"
+        android:spinnerMode="dialog"
+        android:visibility="visible" />
+
+    <Spinner
+        android:id="@+id/h0701_s004"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:backgroundTint="@color/Aqua"
+        android:backgroundTintMode="multiply"
+        android:entries="@array/m0501_d001"
+        android:popupBackground="@color/Aqua"
+        android:prompt="@string/當季的推薦作物"
+        android:scrollbarSize="24dp"
+        android:spinnerMode="dialog"
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="150dp"
+        android:background="@color/white"
+
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform" />
+    <!--    android:text="@string/甜椒品項"-->
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+    <!--    android:text="@string/番茄熱量"-->
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/dp10"
+        android:layout_marginTop="0dp"
+        android:background="@color/white"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+    <!--    android:text="@string/番茄鉀"-->
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_toEndOf="@+id/textView6"
+        android:background="@color/white"
+        android:gravity="end"
+        android:text="@string/以每100g計算"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:autoSizeTextType="uniform" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_toEndOf="@+id/textView6"
+        android:background="@color/white"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+    <!--    android:text="@string/番茄Vit.A"-->
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView11"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="@dimen/dp10"
+        android:layout_toEndOf="@+id/textView6"
+        android:background="@color/white"
+
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:autoSizeTextType="uniform" />
+    <!--    android:text="@string/番茄Vit.C"-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/Brown"
+        android:orientation="horizontal">
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h0701_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="fitCenter"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            android:scrollIndicators="none"
+            android:scrollbarDefaultDelayBeforeFade="400"
+            android:scrollbarFadeDuration="250"
+            app:srcCompat="@drawable/googleg_color" />
+
+        <ImageView
+            android:id="@+id/h0701_home"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/h0501_Sb001"
+            android:scaleX="1.05"
+            app:srcCompat="@drawable/h1301_btn007" />
+
+        <!--        android:text="@string/回首頁"-->
+        <ImageView
+            android:id="@+id/h0701_fans"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/h0501_Sb001"
+            app:srcCompat="@drawable/h1301_btn008" />
+
+        <!--        android:text="@string/粉絲專頁"-->
+        <ImageView
+            android:id="@+id/myname07"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/h0501_Sb001"
+            app:srcCompat="@drawable/about_us" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/googleg_color"
+            android:gravity="center"
+            android:scaleX="0.4"
+            android:scaleY="1"
+
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:visibility="gone" />
+        <!--        android:text="@string/快速採買"        -->
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="h0601_t001">病蟲害查詢</string>
+    <string name="m1405_t001">資料表清單</string>
+    <string name="m_query">查詢</string>
+    <string name="m_update">修改刪除</string>
+    <string name="btnadd">新增</string>
+    <string name="btnquery">查詢</string>
+    <string name="btnlist">清單</string>
+    <string name="btndel">刪除</string>
+    <string name="btnupdate">更新</string>
+    <string name="tv001">姓名：</string>
+    <string name="tv002">群組：</string>
+    <string name="tv003">地址：</string>
+    <string name="count_t">共計:</string>
+    <string name="m_nofound">施工中</string>
+
+    <string name="hint">請填入資料</string>
+    <string name="btIdtop">第一筆</string>
+    <string name="btIdPrev">上一筆</string>
+    <string name="btIdnext">下一筆</string>
+    <string name="btIdend">尾筆</string>
+    <string name="tvIdTitle">資料內容</string>
+    <string name="m_batch">批次新增</string>
+    <string name="m_clear">清空資料</string>
+    <string name="m_altitle">清空所有資料</string>
+    <string name="m_message">確定將所有資料刪除嗎?</string>
+    <string name="txtid">ID:</string>
+    <string name="m_message2">確定要刪除嗎</string>
+    <string name="m_list">列表清單</string>
+    <string name="m1410_t001">資料內容</string>
+    <string name="image">image</string>
+    <string name="m_data">資料維護</string>
+    <string name="st_hint">提示</string>
+    <string name="Hint">請輸入資料</string>
+    <string name="m1402_crop">作物名稱: </string>
+    <string name="m1402_t001">病蟲害名1：</string>
+    <string name="m1402_t002">圖片網址1：</string>
+    <string name="m1402_t003">處理方法1：</string>
+    <string name="m1402_t001a">病蟲害名2：</string>
+    <string name="m1402_t002a">圖片網址2：</string>
+    <string name="m1402_t003a">處理方法2：</string>
+
+    <!-- _____________________選擇作物類別_______________-__ -->
+    <string name="h0601_t002">選擇作物類別</string>
+
+    <string-array name="h0601_season">
+        <item>選擇季節</item>
+        <item>春</item>
+        <item>夏</item>
+        <item>秋</item>
+        <item>冬</item>
+    </string-array>
+
+    <string-array name="h0601_choose">
+        <item>選擇作物</item>
+    </string-array>
+
+    <string-array name="h0601_spring">
+        <item>選擇作物</item>
+        <item>茄子</item>
+        <item>番茄</item>
+        <item>草莓</item>
+        <item>青椒</item>
+        <item>空心菜</item>
+        <item>韭菜</item>
+        <item>秋葵</item>
+    </string-array>
+
+    <string-array name="h0601_summer">
+        <item>選擇作物</item>
+        <item>小白菜</item>
+        <item>黃瓜</item>
+        <item>辣椒</item>
+        <item>櫻桃蘿蔔</item>
+        <item>豇豆</item>
+        <item>落葵</item>
+        <item>綠豆</item>
+    </string-array>
+
+    <string-array name="h0601_fall">
+        <item>選擇作物</item>
+        <item>大蒜</item>
+        <item>荷蘭豆</item>
+        <item>萵苣</item>
+        <item>四季豆</item>
+        <item>胡蘿蔔</item>
+        <item>菠菜</item>
+        <item>芹菜</item>
+        <item>洋蔥</item>
+        <item>綠豆芽</item>
+        <item>青蔥 </item>
+    </string-array>
+
+    <string-array name="h0601_winter">
+        <item>選擇作物</item>
+        <item>甜椒</item>
+        <item>九層塔</item>
+        <item>菜頭</item>
+        <item>香菜</item>
+        <item>烏塌菜</item>
+        <item>韭菜</item>
+    </string-array>
+
+    <string name="h0601_t004">病蟲害資訊</string>
+    <string name="h0601_t005">處理建議</string>
+
+    <!-- _________________________顯示欄____________________ -->
+    <string name="h0601_f001">蟲害1</string>
+    <string name="h0601_f001a">病害1</string>
+    <string name="h0601_f002">處理1</string>
+    <string name="h0601_f002a">處理2</string>
+    <string name="h0601_img01">病蟲害圖片01</string>
+    <string name="h0601_img02">病蟲害圖片02</string>
+
+    <!-- ___________________________按鈕____________________ -->
+    <string name="h0601_b001">確定</string>
+
+    <!-- __________________________作物分類_______________________ -->
+    <string name="h0601_r001">十字花科(花椰菜,小白菜...)</string>
+    <string name="h0601_r002">茄科(馬鈴薯,茄子...)</string>
+    <!-- _____________________________________________________-_ -->
+
+    <!-- __________________________病蟲害資訊______________________ -->
+    <!-- 十字花科 -->
+    <string name="h0601_br01">小菜蛾</string>
+    <string name="h0601_br02">細菌性軟腐病</string>
+    <!-- __________________________________________________________ -->
+    <!-- 茄科 -->
+    <string name="h0601_so03">南黃薊馬</string>
+    <string name="h0601_so04">早疫病</string>
+
+    <!-- __________________________處理方法_______________________ -->
+    <!-- 十字花科 -->
+    <string name="h0601_a001">1.把有蟲卵或受傷的葉片清除</string>
+    <string name="h0601_a002">2.維持適當的溫溼度</string>
+
+    <!-- 茄科 -->
+    <string name="h0601_a003">1.避免密集種植同一種植物</string>
+    <string name="h0601_a004">2.維持良好通風</string>
+
+    <!-- ____________________作物和季節列表________________ -->
+    <string name="h0601_s001">春</string>
+    <string name="h0601_s002">夏</string>
+    <string name="h0601_s003">秋</string>
+    <string name="h0601_s004">冬</string>
+    <!-- 春季推薦作物 -->
+    <string name="h0601_tsp01">茄子</string>
+    <string name="h0601_tsp02">番茄</string>
+    <string name="h0601_tsp03">草莓</string>
+    <string name="h0601_tsp04">青椒</string>
+    <string name="h0601_tsp05">空心菜</string>
+    <string name="h0601_tsp06">韭菜</string>
+    <string name="h0601_tsp08">秋葵</string>
+
+    <!-- 夏季推薦作物 -->
+    <string name="h0601_tsu01">小白菜</string>
+    <string name="h0601_tsu02">黃瓜</string>
+    <string name="h0601_tsu03">辣椒</string>
+    <string name="h0601_tsu04">櫻桃蘿蔔</string>
+    <string name="h0601_tsu05">豇豆</string>
+    <string name="h0601_tsu06">落葵</string>
+    <string name="h0601_tsu07">綠豆</string>
+
+    <!-- 秋季推薦作物 -->
+    <string name="h0601_tfa01">大蒜</string>
+    <string name="h0601_tfa02">荷蘭豆</string>
+    <string name="h0601_tfa03">萵苣</string>
+    <string name="h0601_tfa04">四季豆</string>
+    <string name="h0601_tfa05">胡蘿蔔</string>
+    <string name="h0601_tfa06">菠菜</string>
+    <string name="h0601_tfa07">芹菜</string>
+    <string name="h0601_tfa08">洋蔥</string>
+    <string name="h0601_tfa09">綠豆芽</string>
+    <string name="h0601_tfa10">青蔥 </string>
+
+    <!-- 冬季推薦作物 -->
+    <string name="h0601_twi01">甜椒</string>
+    <string name="h0601_twi02">九層塔</string>
+    <string name="h0601_twi03">菜頭</string>
+    <string name="h0601_twi04">香菜</string>
+    <string name="h0601_twi05">烏塌菜</string>
+    <string name="h0601_twi06">韭菜</string>
+
+
+    <string name="h0601_imgdlg">彈出的放大圖</string>
+    <string name="h0601_test" >讀取HA0600</string>
+    <string name="m_test">測試</string>
+
+</resources>

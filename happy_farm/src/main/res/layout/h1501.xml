@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/m1301_iv01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h1301_bac"
+    android:scrollbarAlwaysDrawHorizontalTrack="false"
+    android:scrollbarAlwaysDrawVerticalTrack="false"
+    tools:context="com.city2farmer.H1501">
+
+
+    <ImageView
+        android:id="@+id/h1501_img01"
+        android:layout_width="match_parent"
+        android:layout_height="193dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:contentDescription="@string/h1501_b001"
+        android:gravity="center"
+        android:src="@drawable/h1511" />
+
+    <LinearLayout
+        android:id="@+id/h1501_lay01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1501_img01"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/h1501_b001"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/h1401_bg_rectangle_with_arc"
+            android:backgroundTint="#FFFFFF"
+            android:gravity="center"
+            android:text="@string/h1501_b001"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/h1501_b002"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:background="@drawable/h1401_bg_rectangle_with_arc"
+            android:gravity="center"
+            android:text="@string/h1501_b002"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/h1501_t001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1501_lay01"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="@string/h1501_t002"
+        android:textColor="@color/Olive"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/h1501_lay02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1501_t001"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.city2farmer.CircleImgbutton
+            android:id="@+id/h1501_imgbutton"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/h1501" />
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1501_img02"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/h1502" />
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1501_img03"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/h1503" />
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1501_img04"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/h1504" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/h1501_lay03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/h1501_lay02"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1501_img05"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/h1505" />
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1501_img06"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/h1506" />
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1501_img07"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/h1507" />
+
+        <com.city2farmer.CircleImgView
+            android:id="@+id/h1501_img08"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="30dp"
+            app:srcCompat="@drawable/h1508" />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/h1301_v001"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@color/Brown"
+        android:text="@string/h1301_v001" />
+
+    <LinearLayout
+        android:id="@+id/h1501_l01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/Brown"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <com.city2farmer.CircleImgbutton
+            android:id="@+id/h1501_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="20dp"
+            android:background="#00000000"
+            android:scaleType="fitCenter"
+            android:scaleX="0.9"
+            android:scaleY="0.9"
+            app:srcCompat="@drawable/googleg_color" />
+
+        <ImageButton
+            android:id="@+id/h1501_b007"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1501_b001"
+            android:scaleType="fitCenter"
+            android:scaleX="1.05"
+            android:scaleY="1.05"
+            app:srcCompat="@drawable/h1301_btn007" />
+
+        <ImageButton
+            android:id="@+id/h1501_b008"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1501_b001"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/h1301_btn008" />
+
+        <ImageButton
+            android:id="@+id/h1501_t0011"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="4dp"
+            android:layout_weight="1.0"
+            android:background="#00000000"
+            android:contentDescription="@string/h1501_b001"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/about_us" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:text="@string/myname15"
+        android:textColor="@color/Blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+
+</RelativeLayout>

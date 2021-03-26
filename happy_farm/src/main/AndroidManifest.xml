@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.city2farmer">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.READ_CALENDAR"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher01"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher01_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.H1301">
+<!--        API 29使用apache client需加此行-->
+<!--        <uses-library android:name="org.apache.http.legacy" android:required="false" />-->
+        <activity android:name=".H1300" android:screenOrientation="locked">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity android:name=".H0501"  android:screenOrientation="locked"></activity>
+        <activity android:name=".H0601"  android:screenOrientation="locked"></activity>
+        <activity android:name=".H0701"  android:screenOrientation="locked"></activity>
+        <activity android:name=".H1201"  android:screenOrientation="locked"></activity>
+        <activity android:name=".H1301"  android:screenOrientation="locked"></activity>
+        <activity android:name=".H1302_about"  android:screenOrientation="locked"></activity>
+        <activity android:name=".H1401"  android:screenOrientation="locked"></activity>
+        <activity android:name=".H1501"  android:screenOrientation="locked"></activity>
+        <activity android:name=".h1502" android:screenOrientation="locked"></activity>
+        <activity android:name=".H1501left" android:screenOrientation="locked"></activity>
+        <activity android:name=".H1501right" android:screenOrientation="locked"></activity>
+    </application>
+
+</manifest>

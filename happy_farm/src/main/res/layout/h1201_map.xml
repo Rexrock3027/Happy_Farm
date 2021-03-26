@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/h1201_ry01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h1301_bac"
+    android:orientation="vertical">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/h1201_mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/h1201_nest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        app:behavior_hideable="false"
+        app:behavior_peekHeight="75dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <LinearLayout
+            android:id="@+id/h1201_map_lnlay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/Brown"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/h1201_list_up"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/h1201_list_up"
+                app:srcCompat="@drawable/ic_group_expand_05" />
+
+            <TextView
+                android:id="@+id/h1201_list_t001"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dp10"
+                android:paddingEnd="@dimen/dp10"
+                android:paddingBottom="@dimen/dp10"
+                android:text="@string/h1201_shopname"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/h1201_list_t002"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dp10"
+                android:paddingEnd="@dimen/dp10"
+                android:text="@string/h1201_address"
+                android:textSize="18sp"
+                app:autoSizeTextType="uniform" />
+
+            <TextView
+                android:id="@+id/h1201_list_t003"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/dp10"
+                android:paddingEnd="@dimen/dp10"
+                android:text="@string/h1201_telphone"
+                android:textSize="18sp"
+                app:autoSizeTextType="uniform" />
+
+            <Button
+                android:id="@+id/h1201_list_b001"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/h1201_callphone"
+                android:textColor="@color/Maroon"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/h1201_map_lnlay2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

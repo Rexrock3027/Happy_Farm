@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/h1301_login"
+        android:orderInCategory="100"
+        android:title="@string/h1301_login" />
+    <item
+        android:id="@+id/h1301_logout"
+        android:orderInCategory="200"
+        android:title="@string/h1302_b003"
+        android:visible="false" />
+
+    <item
+        android:id="@+id/h1301_delete"
+        android:orderInCategory="9999"
+        android:title="@string/h1301_delete" />
+<!--    <item-->
+<!--        android:id="@+id/sign_in_button"-->
+<!--        android:checked="false"-->
+<!--        android:title="@string/AboutBlank"-->
+<!--        app:actionProviderClass="androidx.mediarouter.app.MediaRouteActionProvider"-->
+<!--        app:showAsAction="always"-->
+<!--        tools:icon="@drawable/googleg_color" />-->
+</menu>

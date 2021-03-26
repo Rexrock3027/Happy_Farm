@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="h1201_t001">採買地點查詢</string>
+    <string name="h1201_t002">縣市選單</string>
+    <string name="h1201_t003">地區選單</string>
+    <string name="h1201_t004">店家資訊</string>
+    <string name="h1201_t006">XXX店</string>
+    <string name="h1201_t007">台中市yyyzzz</string>
+    <string name="h1201_t013">首頁</string>
+    <string name="h1201_t014">粉絲專頁</string>
+    <string name="h1201_t015">快速採買</string>
+    <string name="h1201_b001">導航</string>
+    <string name="h1201_i001">首頁</string>
+    <string name="h1201_i002">粉絲團</string>
+    <string name="h1201_i003">購買地址</string>
+    <string name="h1201_i004">google登入</string>
+    <string name="h1201_objt001">店名，地址，電話</string>
+    <string name="h1201_gpstitle">定位管理</string>
+    <string name="h1201_gpsmessage">GPS尚未啟用.\n請問現在是否設定啟用GPS?</string>
+    <string name="h1201_enable">啟用</string>
+    <string name="h1201_disabled">不啟用</string>
+    <string name="h1201_retrun">返回</string>
+    <string name="h1201_shopname">店名:</string>
+    <string name="h1201_address">地址:</string>
+    <string name="h1201_telphone">電話:</string>
+    <string name="h1201_total01">共計: </string>
+    <string name="h1201_total02">筆資料</string>
+    <string name="this_finish">this_finish</string>
+    <string name="this_hide">this_hide</string>
+    <string name="h1201_callphone">撥打電話</string>
+    <string name="h1201_list_up">向上拉</string>
+</resources>
